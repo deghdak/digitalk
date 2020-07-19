@@ -1,0 +1,370 @@
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+  html {
+    font-family: 'Manrope', san-serif;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  footer{
+    height:100px;
+    width: 100px;
+  }
+
+
+  body {
+    font-family: 'Manrope', sans-serif;
+    color: #232323;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size:35px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  h4 {
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+  h5 {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  nav {
+    position: relative;
+    z-index: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main{
+    margin-top: 10vh;
+  }
+
+  .cursor-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 200;
+    pointer-events: none;
+    color: black;
+  }
+
+  .cursor {
+    width: 200px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+    z-index: 200;
+    padding: 20px;
+  }
+
+  .cursor-infos {
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .cursor-title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .sub-container{
+    margin-top: 10vh;
+  }
+
+  .sub-para{
+    margin-top: 10vh;
+  }
+
+  .chapter{
+    margin-bottom: -9px;
+  }
+
+  .label {
+    background-color:#D8D8D8;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    margin-bottom: -10px;
+  }
+
+  .download-link {
+    display: inline-flex;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+  }
+
+  .icon {
+    margin: 10px 7px 10px 25px
+  }
+
+  .icon-text {
+    margin: 10px 25px 10px 7px
+  }
+
+  .CTA {
+    margin-top: 30px;
+  }
+
+  .redir-link{
+    color: #232323;
+  }
+
+  .claims {
+    margin-top: 100px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+    height: 180px;
+    width: 370px;
+  }
+
+  .claim-illu{
+    width: 90%;
+    margin-top: -190px;
+    margin-bottom: -70px;
+  }
+
+  .team-para{
+    text-align: center;
+  }
+
+  .color-box {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+  }
+
+  .megaphone{
+    width: 90%;
+  }
+
+  .temoignages{
+    background-color: #E5E9FF;
+    border-radius: 20px;
+  }
+
+  .temoignage{
+    display: inline-flex;
+  }
+
+  .temoignage-para{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .signature{
+    color: #e00034;
+  }
+
+  .square{
+    width: 100%;
+    height: 90vh;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    z-index: -1;
+  }
+
+  .border {
+    margin-top: 20px;
+    width: 26px;
+    background-color: #0028FF;
+    border-radius: 30px;
+  }
+
+  .thanks{
+    text-align: center;
+    margin: 300px 90px 300px 90px;
+    font-size: 15px;
+  }
+
+  .thanks-illu{
+    margin-bottom: -806px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -115px;
+    /* bottom: 0; */
+    width: 100%;
+  }
+
+  .swot-illu{
+    display: none;
+    width: 110vw;
+    position: absolute;
+    margin-left: -102px;
+    margin-top: -66px
+  }
+
+  .blue {
+    background-color: #0028FF;
+  }
+
+  .yellow {
+    background-color: #FFC200;
+  }
+
+  .orange {
+    background-color: #FF5519;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .bubble{
+    background-color: #F4F4F4;
+    border-radius: 50px;
+    display: inline-flex;
+    margin-top: 40px;
+  }
+
+  .bubble-para {
+    margin: 4px 20px 20px 0px;
+  }
+
+  .speaker {
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    margin: -20px 25px 15px 2px;
+  }
+
+  .project-preview {
+    margin-left: -40px;
+    width: 30%;
+  }
+
+  .project-para {
+    margin-top: 120px;
+  }
+
+  #link-nav{
+    float: right;
+    list-style: none;
+  }
+
+  #link-nav li a h6{
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .hoverPoint {
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .hoverBox{
+    display: inline-flex;
+  }
+
+/*! locomotive-scroll v3.5.4 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden; }
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.has-scroll-smooth body {
+  overflow: hidden; }
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh; }
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100vh;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0; }
+  .c-scrollbar:hover {
+    transform: scaleX(1.45); }
+  .c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+    opacity: 1; }
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab; }
+  .has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing; }
+
+
+
+  @media screen and (max-width: 1000px) {
+    .hero{
+      margin-top:40px;
+    }
+
+    .img-centered{
+      margin-left:auto;
+      margin-right: auto;
+    }
+
+    .text-centered{
+      text-align: center;
+    }
+
+    .project-preview{
+      margin-left: -10px;
+      width: 70%;
+    }
+
+    .thanks {
+      text-align: center;
+      margin: 100px 30px 100px 30px;
+      font-size: 15px;
+
+  }
